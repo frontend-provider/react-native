@@ -10,10 +10,10 @@
 
 'use strict';
 
-var cli = require('@react-native-community/cli');
+var cli_is = require('@react-native-community/cli');
 
 if (require.main === module) {
   cli.run();
 }
 
-module.exports = cli;
+module.exports = cli_is;
